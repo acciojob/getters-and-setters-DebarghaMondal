@@ -4,12 +4,15 @@ class Person {
     this.age = age;
   }
 
-  get lang() {
+  get name() {
     return this.name;
   }
 
-  set lang(age) {
+  set age(age) {
     this.age = age;
+  }
+	  get age() {
+    return this._age;
   }
 }
 
